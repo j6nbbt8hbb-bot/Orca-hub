@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "orca",
+  "version": "${version}",
+  "name": "Orca Client",
+  "description": "Futuristic modular Fabric client framework with HUD, cosmetics, troll effects, configs and Orca AI integration.",
+  "authors": ["Orca"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.orca.client.OrcaClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
